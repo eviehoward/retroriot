@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Gallery</title>
+
+        <!-- fomantic ui -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
+
+        <!-- lexend font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"
+                            ><img src="images/headerlogo.png" alt="The Retro Riot logo with a purple background"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="events.html">Upcoming Events</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" class="active">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <form style="display: inline" action="contact.html" method="get">
+                            <button type="submit" class="navbutton">Contact Us</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="ui bottom fixed teal inverted menu">
+                <div class="left item">
+                    <i class="ui play icon"></i> 
+                    <p><span>Now Playing:</span> Time After Time (Cover) - Retro Riot</p>
+                </div>
+                <div class="right item">
+                    <audio controls>
+                        <source src="audio/synthwavemonume.mp3" type="audio/mpeg">
+                        Your browser doesn't support the audio element!
+                    </audio>
+                </div>
+            </div>
+            <div class="outerCabinet">
+                <div class="innerCabinet galleryPage">
+                    <br class="spacer" />
+                    <section class="ui text container pageTop">
+                        <h1>Gallery</h1>
+                        <p>
+                            <strong>Because seeing is believing....</strong> <br />
+                            Here you will find a selection of photos and videos from our past events to prove that Retro
+                            Riot know how to get the party started!
+                        </p>
+                    </section>
+                    <section class="ui center aligned container">
+                        <h2 class="galleryh2">Retro Riot Live @ Electric Avenue</h2>
+                        <div class="videoWrapper">
+                            <iframe
+                                width="60%"
+                                src="https://www.youtube.com/embed/eGEtgtGW3uU?si=A6g2oDWTNayX-e6o"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe>
+                        </div>
+                    </section>
+                    <section class="ui equal width stackable grid container galleryPics">
+                        <div class="column">
+                            <img src="images/confetti.png" alt="A crowd in a dimly lit room where confetti is falling from the roof" />
+                            <img src="images/bluemic.png" alt="A man in a white t shirt playing electric guitar and singing into a microphone under a blue spotlight" />
+                        </div>
+                        <div class="column">
+                            <img src="images/keyboard.png" alt="Two hands playing an electric keyboard" />
+                            <img src="images/greenlight.png" alt="The base of a mic and someones legs standing on a stage under a green light"/>
+                        </div>
+                        <div class="column">
+                            <img src="images/sunglasseslady.png" alt="A lady with black hair wearing heart shaped sunglasses and looking at a colourful discoball" />
+                            <img src="images/djbooth.png" alt="A pair of headphones resting on a dj deck in front of a crowd of people on a dancefloor" />
+                        </div>
+                        <div class="column">
+                            <img src="images/ableton.png" alt="A laptop connected to an electric keyboard with Ableton open" />
+                        </div>
+                    </section>
+                    <section class="ui center aligned container">
+                        <h2 class="galleryh2">Wexford Arts Festival Rehearsal (BTS #11)</h2>
+                        <div class="videoWrapper">
+                            <iframe
+                                width="60%"
+                                src="https://www.youtube.com/embed/eGEtgtGW3uU?si=A6g2oDWTNayX-e6o"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe>
+                        </div>
+                    </section>
+                    <section class="ui container socials">
+                        <h2>See More</h2>
+                        <div class="ui four statistics">
+                            <a class="statistic"  href="https://www.instagram.com/" target="_blank">
+                                <div class="value"><i class="ui circular colored teal instagram icon"></i></div>
+                                <span>@RetroRiot</span>
+                            </a>
+                            <a class="statistic" href="https://www.facebook.com/" target="_blank">
+                                <div class="value"><i class="ui circular colored pink facebook icon"></i></div>
+                                <span>Retro Riot Band</span>
+                            </a>
+                            <a class="statistic" href="https://x.com/" target="_blank">
+                                <div class="value"><i class="ui circular colored orange twitter icon"></i></div>
+                                <span>@RetroRiot</span>
+                            </a>
+                            <a class="statistic" href="https://www.youtube.com/" target="_blank">
+                                <div class="value"><i class="ui circular colored yellow youtube icon"></i></div>
+                                <span>Retro Riot</span>
+                            </a>
+                        </div>
+                    </section>
+                    <br class="spacer">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="images/footertop.png" class="footerTop" alt="The tolp of the arcade cabinet" />
+            </div>
+            <section class="ui middle aligned three column stackable grid woodBackground">
+                <div class="column">
+                    <img src="images/footerlogo.png" class="footerLogo" alt="The Retro Riot logo in teal" />
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"
+                                ><i class="ui circular black instagram icon"></i>
+                                @RetroRiot
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="ui circular black facebook icon"></i>
+                                Retro Riot Band
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="ui circular black envelope icon"></i>
+                                retroriot@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="ui circular black phone icon"></i>
+                                087 123 4567
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <p>Join Our Mailing List</p>
+                    <input type="email" name="email" placeholder="example@email.com" />
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

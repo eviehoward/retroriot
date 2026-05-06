@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home</title>
+
+        <!-- fomantic ui -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
+
+        <!-- lexend font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"
+                            ><img src="images/headerlogo.png" alt="The Retro Riot logo with a purple background"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="events.html">Upcoming Events</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <form style="display: inline" action="contact.html" method="get">
+                            <button type="submit" class="navbutton">Contact Us</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="ui bottom fixed teal inverted menu">
+                <div class="left item">
+                    <i class="ui play icon"></i> 
+                    <p><span>Now Playing:</span> Time After Time (Cover) - Retro Riot</p>
+                </div>
+                <div class="right item">
+                    <audio controls>
+                        <source src="audio/synthwavemonume.mp3" type="audio/mpeg">
+                        Your browser doesn't support the audio element!
+                    </audio>
+                </div>
+            </div>
+            <div class="outerCabinet">
+                <div class="innerCabinet">
+                    <br class="spacer" />
+                    <section class="heroSection ui relaxed stretched stackable grid container">
+                        <div class="ten wide column heroText">
+                            <h1>Bringing Back the 80's!</h1>
+                            <p>
+                                Retro Riot are reviving the 80’s, one show at a time. They know exactly how to get
+                                everyone on the dancefloor, all night long. Good music, good company, good vibes.
+                            </p>
+                            <span>Retro Riot are all you need to dance the night away!</span>
+                        </div>
+                        <div class="six wide column">
+                            <img src="images/homepageimage.jpg" class="heroImage" alt="An image of a three person band on stage with a crowd in front and a discoball on the ceiling" />
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Highscores</h2>
+                        <div class="ui stackable grid highscores">
+                            <div class="four wide column">
+                                <img src="images/discoball.gif" class="discoball" alt="An animated gif of a spinning disco ball" />
+                                <p><span>46</span> private events</p>
+                            </div>
+                            <div class="four wide column">
+                                <img src="images/discoball.gif" class="discoball" alt="An animated gif of a spinning disco ball" />
+                                <p><span>9,000+</span> tickets sold</p>
+                            </div>
+                            <div class="four wide column">
+                                <img src="images/discoball.gif" class="discoball" alt="An animated gif of a spinning disco ball" />
+                                <p><span>5,000+</span> followers</p>
+                            </div>
+                            <div class="four wide column">
+                                <img src="images/discoball.gif" class="discoball" alt="An animated gif of a spinning disco ball" />
+                                <p><span>INFINITE</span> 80's vibes</p>
+                            </div>
+                        </div>
+                    </section>
+                    <br class="spacer" />
+                    <blockquote>
+                        "<strong>Retro Riot</strong> were <strong>brilliant</strong>... the dancefloor was full all
+                        night!"
+                    </blockquote>
+                    <br class="spacer" />
+                    <br class="spacer" />
+                    <section class="mailing">
+                        <div>
+                            <h2>Mailing List</h2>
+                            <p>
+                                Keep up with all things Retro Riot: upcoming events, ticket presale, plus exclusive
+                                deals and more!
+                            </p>
+                            <input type="email" name="email" placeholder="example@email.com" />
+                        </div>
+                        <br />
+                    </section>
+                    <section class="ui stackable center aligned three column middle aligned grid">
+                        <div class="column">
+                            <a href="events.html">
+                                <div class="square" id="events">
+                                    <p>Events</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="about.html">
+                                <div class="square" id="meet">
+                                    <p>Meet the Band</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="contact.html">
+                                <div class="square" id="book">
+                                    <p>Book an Event</p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="images/footertop.png" class="footerTop" alt="The top of the arcade cabinet"/>
+            </div>
+            <section class="ui middle aligned three column stackable grid woodBackground">
+                <div class="column">
+                    <img src="images/footerlogo.png" class="footerLogo" alt="The retro riot logo in teal" />
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"
+                                ><i class="ui circular black instagram icon"></i>
+                                @RetroRiot
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="ui circular black facebook icon"></i>
+                                Retro Riot Band
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="ui circular black envelope icon"></i>
+                                retroriot@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="ui circular black phone icon"></i>
+                                087 123 4567
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <p>Join Our Mailing List</p>
+                    <input type="email" name="email" placeholder="example@email.com" />
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

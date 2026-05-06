@@ -1,0 +1,453 @@
+
+@font-face {
+    font-family: 'arcadeNormal';
+    src: url('../fonts/ArcadeClassic.woff2') format('woff2'),
+        url('../fonts/ArcadeClassic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    color: #140A23;
+}
+
+nav {
+    font-family: arcadeNormal;
+    
+    background-image: url(../images/navbackground.png); /* gradient */
+    background-size: contain;
+    
+    width: 100%;
+    border: solid 13px #404040;
+    padding: 0em 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+li > a > img {
+    width: 10em
+}
+
+li > a {
+    font-size: 1.2em;
+    color: #140A23;
+    text-shadow: /* from css-tricks.com/adding-stroke-to-web-text */
+        -1px -1px 0 #f1f7ff,  
+        1px -1px 0 #f1f7ff,
+        -1px 1px 0 #f1f7ff,
+        1px 1px 0 #f1f7ff;
+} 
+
+li > a:hover, .navbutton:hover, .active  {
+    color: #ffBD05;
+        text-shadow: /* from css-tricks.com/adding-stroke-to-web-text */
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.navbutton {
+    background-color: #140A23;
+    font-family: arcadeNormal;
+    color: #f1f7ff;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+main {
+    background-image: url(../images/marginbackground.png);
+    background-repeat: repeat;
+}
+
+.spacer {
+    margin: 2em;
+}
+
+.outerCabinet {
+    width: 90%;
+    margin: auto;
+    border-left: solid 7px #404040;
+    border-right: solid 7px #404040;
+    background-image: url(../images/sidebackground.jpg);
+    background-size: cover; /* maybe change */
+}
+
+.innerCabinet {
+    width: 90%;
+    margin: auto;
+    border-left: solid 7px #404040;
+    border-right: solid 7px #404040;
+    
+    background-image: url(../images/mainbackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.heroSection {
+    background-color: #f1f7ff;
+}
+
+.heroImage {
+    width: 100%;
+    padding: 1em
+}
+
+.heroSection h1 {
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-family: arcadeNormal;
+    font-size: 64px;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 55px;
+    font-family: arcadeNormal;
+    color: #f1f7ff;
+    text-align: center;
+    text-shadow: /* from css-tricks.com/adding-stroke-to-web-text */
+        -4px -4px 0 #d81e5b,  
+        4px -4px 0 #d81e5b,
+        -4px 4px 0 #d81e5b,
+        4px 4px 0 #d81e5b;
+}
+
+h3 {
+    font-family: Lexend;
+    font-size: 24px;
+}
+
+p {
+    font-size: 22px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+blockquote {
+    font-size: 64px;
+    line-height: 1.2em;
+    color: #f1f7ff;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+strong {
+    font-weight: 900;
+}
+
+section {
+    margin: 5% 10%; 
+}
+
+.discoball {
+    width: 90%;
+    border-radius: 200px;
+    margin: 5%;
+}
+
+.highscores p {
+    color: white;
+    text-align: center;
+}
+
+.highscores span {
+    display: block;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+/* mailing list section styles */
+
+.mailing {
+    background-image: url(../images/discoballbg.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0em;
+    padding: 1em;
+}
+
+.mailing div {
+    background-color: rgba(241, 247, 255, 0.78);
+    width: 75%;
+    margin: 5em;
+    padding: 2em;
+}
+
+.mailing h2 {
+    text-shadow: none;
+    color: #140A23;
+    text-align: left;
+}
+
+input {
+    border: none;
+    padding: 1%;
+    width: 50%;
+}
+
+/* link images */
+.square {
+    width: 250px;
+    margin: 6em auto;
+    height: 250px;
+    border: 4px solid #404040;
+    border-radius: 4px;
+    align-content: center;
+}
+
+#events {
+    background-image: url(../images/eventsbg.png);
+    background-size: contain;
+}
+
+#meet {
+    background-image: url(../images/meetbg.png);
+    background-size: contain;
+}
+
+#book {
+    background-image: url(../images/bookbg.png);
+    background-size: contain;
+}
+
+.square p {
+    color: #f1f7ff;
+    font-family: arcadeNormal;
+    font-size: 5.1em;
+    line-height: 0.9em;
+    vertical-align: middle;
+}
+
+.square p:hover {
+    color: #c7c7c7
+}
+
+/* footer styles */
+footer {
+    color: white;
+}
+
+footer input {
+    width: 85%;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2.5;
+}
+
+.footerTop {
+    width: 100%;
+}
+
+.woodBackground {
+    background-image: url(../images/woodbg.jpg);
+}
+
+.footerLogo {
+    width: 100%;
+}
+
+.circular.icon {
+    background-color: #f1f7ff;
+}
+
+footer a {
+    text-shadow: none;
+    color: #f1f7ff;
+    font-size: 20px;
+}
+
+footer a:hover {
+    text-shadow: none;
+}
+
+/* events page */
+.pageTop {
+    margin-top: 0%;
+    color: #f1f7ff;
+}
+
+.pageTop h1 {
+    text-shadow: /* from css-tricks.com/adding-stroke-to-web-text */
+        -4px -4px 0 #d81e5b,  
+        4px -4px 0 #d81e5b,
+        -4px 4px 0 #d81e5b,
+        4px 4px 0 #d81e5b;
+}
+
+.eventsFeed {
+    color: #f1f7ff;
+}
+
+.eventsFeed h2 {
+    text-shadow: none;
+    text-align: left;
+    line-height: 0.5;
+    font-size: 60px;
+}
+
+.eventsBottom {
+    margin: 0;
+}
+
+.privateEvents {
+    background-image: url(../images/privateeventsbg.png);   
+    background-size: cover;
+    padding: 25% 5% 5% 5%;
+    margin: 6%;
+}
+
+.bookNow {
+    font-size: 25px;
+}
+
+.eventsFeed button {
+    font-size: 20px;
+}
+
+.eventsFeed ul {
+    list-style-type: none;
+    margin-left: -15%;
+    font-size: 18px;
+}
+
+.eventsFeed li {
+    margin-bottom: 10%;
+}
+
+/* gallery page */
+.galleryPage {
+    color: #f1f7ff;
+}
+
+.galleryPage h1, h2 {
+    text-align:  center;
+}
+
+.galleryh2 {
+    font-family: Lexend;
+    text-shadow: none;
+    font-size: 1.7em;
+    text-align: left;
+    margin-left: 20%
+}
+
+.galleryPics img {
+    width: 100%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 46.25%; /* 16:9 */
+	padding-top: 25px;
+    margin-left: 20%;
+	height: 0;
+    margin-bottom: -20%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 60%;
+} /* from omar juvera, stackoverflow https://stackoverflow.com/a/29784327 */
+
+
+
+.socials h2 {
+   text-align: left;
+}
+
+.socials span {
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    color: #f1f7ff;
+}
+
+/* contact page */
+.contactColumns {
+    color: #f1f7ff;
+}
+
+.whiteh2 {
+    text-shadow: none;
+    text-align: left;
+    font-size: 65px;
+    line-height: 0.6
+}
+
+.contactColumns ul {
+    list-style-type: none;
+    margin-left: -10%;
+    font-size: 25px;
+}
+
+.contactColumns li {
+    margin-bottom: 5%;
+}
+
+/* about */
+span a {
+    color: #ffBD05;
+}
+
+span a:hover {
+    color:#d98600
+}
+
+.socialul {
+    list-style-type: none;
+    margin-left: -5%;
+    font-size: 20px;
+}
+
+.socialul a {
+    color: #f1f7ff;
+    text-shadow: none;
+}
+
+.socialul a:hover {
+    text-shadow: none;
+}
+
+
+article p {
+    color: #f1f7ff;
+}
+
+/* sticky */
+.fixed {
+    height: 2.5em;
+}
+
+.fixed p, .fixed span {
+    font-size: 18px;
+    color: #140A23;
+}
+
+.fixed i {
+    color: #140A23;
+}
+
+

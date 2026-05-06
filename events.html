@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Upcoming Events</title>
+
+        <!-- fomantic ui -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
+
+        <!-- lexend font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"
+                            ><img src="images/headerlogo.png" alt="The Retro Riot logo with a purple background"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="events.html" class="active">Upcoming Events</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <form style="display: inline" action="contact.html" method="get">
+                            <button type="submit" class="navbutton">Contact Us</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="ui bottom fixed teal inverted menu">
+                <div class="left item">
+                    <i class="ui play icon"></i> 
+                    <p><span>Now Playing:</span> Time After Time (Cover) - Retro Riot</p>
+                </div>
+                <div class="right item">
+                    <audio controls>
+                        <source src="audio/synthwavemonume.mp3" type="audio/mpeg">
+                        Your browser doesn't support the audio element!
+                    </audio>
+                </div>
+            </div>
+            <div class="outerCabinet">
+                <div class="innerCabinet">
+                    <br class="spacer" />
+                    <section class="ui center aligned text container pageTop">
+                        <h1>Upcoming Events</h1>
+                        <p>
+                            See when Retro Riot are coming to a venue near you! Check dates, venues, and buy tickets via
+                            our trusted partners. Don’t see an event near you? Don’t worry! We are adding new dates all
+                            the time. Join our mailing list to never miss a show.
+                        </p>
+                        <p>Join Our Mailing List:</p>
+                        <input type="email" name="email" placeholder="example@email.com" />
+                    </section>
+                    <section class="ui middle aligned stackable grid container eventsFeed">
+                        <article class="row">
+                            <div class="four wide column">
+                                <img src="images/electricavenue.png" alt="An image of the electric avenue logo written in neon lights" />
+                            </div>
+                            <div class="eight wide column">
+                                <h2>80's Nite</h2>
+                                <h3>Electric Avenue, Waterford</h3>
+                                <p>
+                                    80s Nite is BACK at Electric Avenue! Prepare for a night of dancing with a STACKED
+                                    lineup!
+                                </p>
+                            </div>
+                            <div class="four wide column">
+                                <ul>
+                                    <li>
+                                        <i class="ui circular map marker alternate inverted icon"></i>11 John Street,
+                                        Waterford
+                                    </li>
+                                    <li><i class="ui circular clock inverted icon"></i>11th June 26, Doors 8pm</li>
+                                </ul>
+                                
+                                <form style="display: inline" action="https://www.eventbrite.ie/" method="get" target="_blank">
+                                        <button type="submit" class="navbutton">Get Tickets</button>
+                                </form>
+                            </div>
+                        </article>
+                        <article class="row">
+                            <div class="four wide column">
+                                <img src="images/stores.png" alt="An image of a bar in dim lighting with potted plants" />
+                            </div>
+                            <div class="eight wide column">
+                                <h2>Live Fridays</h2>
+                                <h3>The Centenary Stores, Wexford</h3>
+                                <p>
+                                    100% Live, Every Friday. Stores Wexford presents LIVE FRIDAYS! Please Note: This is
+                                    a ticketed event. Tickets via Eventbrite
+                                </p>
+                            </div>
+                            <div class="four wide column">
+                                <ul>
+                                    <li>
+                                        <i class="ui circular map marker alternate inverted icon"></i>Charlotte St,
+                                        Townparks, Wexford
+                                    </li>
+                                    <li><i class="ui circular clock inverted icon"></i>12th June 26, From 6pm</li>
+                                </ul>
+                                <form style="display: inline" action="https://www.eventbrite.ie/" method="get" target="_blank">
+                                        <button type="submit" class="navbutton">Get Tickets</button>
+                                </form>
+                            </div>
+                        </article>
+                        <article class="row">
+                            <div class="four wide column">
+                                <img src="images/seanti.png" alt="An image of a chair, microphone and guitar on stage under a spotlight with the Seanti logo and a Palestinian flag on the wall" />
+                            </div>
+                            <div class="eight wide column">
+                                <h2>Retro Riot</h2>
+                                <h3>The Seantí, Kilkenny</h3>
+                                <p>
+                                    Live @ The Seantí presents Retro Riot! Time travel to the 80s and party all night
+                                    long!
+                                </p>
+                            </div>
+                            <div class="four wide column">
+                                <ul>
+                                    <li>
+                                        <i class="ui circular map marker alternate inverted icon"></i>Smartscastle East,
+                                        Kilkenny
+                                    </li>
+                                    <li><i class="ui circular clock inverted icon"></i>19th June 26, Doors 9.30pm</li>
+                                </ul>
+                                <form style="display: inline" action="https://www.eventbrite.ie/" method="get" target="_blank">
+                                        <button type="submit" class="navbutton">Get Tickets</button>
+                                </form>
+                            </div>
+                        </article>
+                        <br class="spacer" />
+                        <section class="row eventsBottom">
+                            <div class="six wide column">
+                                <h3>This Month...</h3>
+                                <img src="images/calendar.png" alt="A calendar page for the month of June"/>
+                            </div>
+                            <div class="ten wide stretched column">
+                                <div class="privateEvents">
+                                    <h2>Private EVents</h2>
+                                    <p>
+                                        We can provide live entertainment for weddings, birthdays, parties... anything!
+                                    </p>
+                                    <form style="display: inline" action="contact.html" method="get">
+                                        <button type="submit" class="navbutton bookNow">Book Now!</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <br class="spacer" />
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="images/footertop.png" class="footerTop" alt="The top of an arcade cabinet" />
+            </div>
+            <section class="ui middle aligned three column stackable grid woodBackground">
+                <div class="column">
+                    <img src="images/footerlogo.png" class="footerLogo" alt="The retro riot logo in teal" />
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"
+                                ><i class="ui circular black instagram icon"></i>
+                                @RetroRiot
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="ui circular black facebook icon"></i>
+                                Retro Riot Band
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="ui circular black envelope icon"></i>
+                                retroriot@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="ui circular black phone icon"></i>
+                                087 123 4567
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <p>Join Our Mailing List</p>
+                    <input type="email" name="email" placeholder="example@email.com" />
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
